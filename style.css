@@ -28,12 +28,19 @@ body{
     border-radius: 50px;
 }
 
-.top-section{
+.common-section{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     margin-top: 100px;
     margin-bottom: 200px;
+}
+.common-section .top-text{
+    width:600px;
+}
+.common-section img{
+    height: 100%;
+    width: 80%;
 }
 h1{
     font-size: 50px;
@@ -103,4 +110,32 @@ span{
 .fas{
     font-size: 50px;
     color: rgb(47, 47, 240);
+}
+.common-section h2{
+    font-size: 30px;
+}
+.common-section p{
+    margin-top: 50px;
+    width: 600px;
+}
+.mini-box p{
+    margin-top: 0px;
+}
+.mini-boxes{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+.mini-box{
+    width: 260px;
+    box-shadow: 2px 2px 20px;
+    border-radius: 30px;
+    padding: 0px 15px;
+}
+.mini-box p{
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.mini-box h2{
+    font-size: 20px;
 }
